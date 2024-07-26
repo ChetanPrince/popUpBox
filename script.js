@@ -8,9 +8,10 @@ showBtn.addEventListener("click", toggleContainers);
 hideBtn.addEventListener("click", toggleContainers);
 
 function toggleContainers(){
-
+  
     shownContainer.classList.toggle("hide");
     hiddenContainer.classList.toggle("hide");
+
 };
 
 document.addEventListener("DOMContentLoaded", showPopUp);
